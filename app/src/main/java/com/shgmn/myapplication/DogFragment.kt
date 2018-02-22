@@ -19,7 +19,7 @@ class DogFragment : Fragment() {
         Log.d("OLYMPICS userB", userB.toString())
         val userC = ViewModelProviders.of(this).get(UserViewModel::class.java)
         Log.d("OLYMPICS userC", userC.toString())
-        Log.d("OLYMPICS", "");
+        Log.d("OLYMPICS", "---")
     }
 }
 
@@ -28,7 +28,7 @@ class TopFragment : Fragment() {
         super.onCreate(savedInstanceState)
         val user = ViewModelProviders.of(this).get(UserViewModel::class.java)
         Log.d("OLYMPICS TopFragment", user.toString())
-        Log.d("OLYMPICS", "");
+        Log.d("OLYMPICS", "---")
     }
 }
 
@@ -37,6 +37,6 @@ class BottomFragment : Fragment() {
         super.onCreate(savedInstanceState)
         val user = ViewModelProviders.of(this).get(UserViewModel::class.java)
         Log.d("OLYMPICS BottomFragment", user.toString())
-        Log.d("OLYMPICS", "");
+        Log.d("OLYMPICS", "---")
     }
 }

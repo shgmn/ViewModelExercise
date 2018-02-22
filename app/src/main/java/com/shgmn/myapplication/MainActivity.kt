@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
         val userViewModel = ViewModelProviders.of(this).get(UserViewModel::class.java)
         Log.d("OLYMPICS HOGEHOGE", userViewModel.toString())
-        Log.d("OLYMPICS", "");
+        Log.d("OLYMPICS", "---")
         userViewModel.getUser()?.observe(this, observer)
 
         if (savedInstanceState == null) {
